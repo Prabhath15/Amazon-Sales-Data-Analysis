@@ -24,7 +24,7 @@ This project analyzes Amazon sales data using Python to understand sales trends,
 3. Perform exploratory data analysis (EDA).
 4. Calculate sales summaries.
 5. Create charts and visualizations.
-6. Document the key business insights.
+6. Document key business insights.
 
 ## Key Findings
 - Maharashtra recorded the highest sales among the states analyzed.
@@ -32,12 +32,18 @@ This project analyzes Amazon sales data using Python to understand sales trends,
 - Most records had an order quantity of one.
 - Shipped orders were the most common order status.
 
-## Conclusion
-This project uses Python libraries to explore e-commerce sales data and identify patterns in regional sales, product performance, and order behavior.
+## Dataset
+The project uses Amazon sales data for exploratory data analysis. A sample dataset, `Amazon_Sales_Sample.csv`, is provided for testing and demonstration. The original full dataset is larger than GitHub's standard web upload limit and is kept locally.
 
 ## How to Run
-1. Install Python and Jupyter Notebook.
-2. Install the required libraries: `pip install pandas numpy matplotlib seaborn`
+1. Download or clone this repository.
+2. Install the required libraries using:
+
+   `pip install -r requirements.txt`
+
 3. Open `Amazon_Sales_Analysis.ipynb` in Jupyter Notebook.
-4. Ensure the dataset path is correct.
-5. Run the notebook cells in order.
+4. Ensure the notebook points to the available dataset, such as `data/Amazon_Sales_Sample.csv`.
+5. Run the notebook cells in order to reproduce the analysis and visualizations.
+
+## Conclusion
+This project uses Python libraries to explore e-commerce sales data and identify patterns in regional sales, product performance, and order behavior.
